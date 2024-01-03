@@ -10,6 +10,17 @@ The following optional dependencies are necessary for mask post-processing, savi
 ```
 pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
+
+## Model Checkpoints
+Three model versions of the model are available with different backbone sizes. These models can be instantiated by running
+```
+from segment_anything import sam_model_registry
+sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
+```
+Click the links below to download the checkpoint for vit_h.  
+  
+  `default` / `vit_h`: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+
 ## Python for Unity
 For Mac:  
 1. Install [MacPorts](https://www.macports.org/) 

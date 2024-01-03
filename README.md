@@ -4,7 +4,7 @@ need to download the Segment Anything's file and follow it's README download eve
 https://github.com/facebookresearch/segment-anything/tree/main#model-checkpoints
 
 # Python for Unity
-For Mac:
+For Mac:  
 1.Install MacPorts
 https://www.macports.org/  
 2.Install Python and PySide by pasting in the Terminal: sudo port install python27 py27-pyside  

@@ -19,17 +19,11 @@ sam = sam_model_registry["<model_type>"](checkpoint="<path/to/checkpoint>")
 ```
 Click the links below to download the checkpoint for vit_h.  
   
-  `default` / `vit_h`: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+`vit_h`: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
 
-## Python for Unity
-For Mac:  
-1. Install [MacPorts](https://www.macports.org/) 
-2. Install Python and PySide by pasting in the Terminal:  
-```
-sudo port install python27 py27-pyside
-```
-4. Within Unity, go to Edit -> Project Settings -> Python and set the out of process Python setting to read /opt/local/bin/python2.7  
-5. Restart Unity.
+## Communicate b/w Unity & Python
+
+https://github.com/Siliconifier/Python-Unity-Socket-Communication
 
 
 
